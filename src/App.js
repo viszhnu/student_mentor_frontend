@@ -1,24 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-
+import {useState, useContext, Profiler, useEffect} from "react";
+import Createstudent from "./Createstudent.js";
+import Creatementor from "./Creatementor.js";
+import Assignstudent from "./Assignstudent.js";
+import Assignmentor from "./Assignmentor.js";
+import Listmentor from "./Listmentor.js";
+import Mentorlist from "./Mentorlist.js";
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Createstudent></Createstudent>
+    <Creatementor></Creatementor>
+    <Assignstudent></Assignstudent>
+    <Assignmentor></Assignmentor>
+    <Mentorlist></Mentorlist>
+</>
   );
 }
 
