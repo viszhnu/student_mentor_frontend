@@ -31,7 +31,7 @@ function Mentorlist(props){
 			  <div class="row">
 				<div class="col-md-7 col-md-push-5">
 				  <div class="booking-cta">
-					<h1>Create Mentor</h1>
+					<h1>Student List with Mentor</h1>
 					<p>
 					  Lorem ipsum dolor sit amet consectetur adipisicing elit.
 					  Animi facere, soluta magnam consectetur molestias itaque ad
